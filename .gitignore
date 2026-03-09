@@ -1,0 +1,64 @@
+# ================================
+# CMake / Build Artifacts
+# ================================
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/*.cmake
+
+# Compiled object files and binaries
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+
+# ================================
+# Editor / IDE specific files
+# ================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# ================================
+# macOS files
+# ================================
+.DS_Store
+
+# ================================
+# Linux / general temp files
+# ================================
+*~
+*.swp
+*.tmp
+*.bak
+*.log
+
+# ================================
+# Windows files
+# ================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ================================
+# Optional: Coverage / testing
+# ================================
+/coverage/
+/*.gcda
+/*.gcno
